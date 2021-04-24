@@ -18,7 +18,7 @@ if [ "$securitykey" = "test12345" ]
 	    $cleverecho "... \n";sleep 1
 
 cat <<EOF >> $HOME/.github_key
-https://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:x-oauth-basic@github.com/aleksd2000
+https://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:x-oauth-basic@github.com/aleksd2000
 EOF
 
 cat <<EOF >> $PWD/.git/config
@@ -28,7 +28,7 @@ cat <<EOF >> $PWD/.git/config
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://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:x-oauth-basic@github.com/aleksd2000/public
+	url = https://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:x-oauth-basic@github.com/aleksd2000/public
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
