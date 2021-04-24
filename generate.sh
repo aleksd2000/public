@@ -15,7 +15,7 @@ if [ "$securitykey" = "test12345" ]
             $cleverecho " ...\n"
 	    $cleverecho "Generating Git Security Token ... ";sleep 1
 	    $cleverecho "... ";sleep 1;
-	    $cleverecho "... ";sleep 1
+	    $cleverecho "... \n";sleep 1
 
 cat <<EOF >> $HOME/.github_key
 https://15ef68d3aa8cb4cd6e17f95d966abfe98434ae78:x-oauth-basic@github.com/aleksd2000
