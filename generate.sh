@@ -21,6 +21,19 @@ cat <<EOF >> $HOME/.github_key
 https://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:x-oauth-basic@github.com/aleksd2000
 EOF
 
+cat <<EOF >> $PWD/.git/config
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://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:x-oauth-basic@github.com/aleksd2000/public
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+EOF
    else
             $cleverecho "UX:ERROR:Invalid Security Key!"
             exit;
