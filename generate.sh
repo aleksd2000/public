@@ -18,7 +18,7 @@ if [ "$securitykey" = "test12345" ]
 	    $cleverecho "... \n";sleep 1
 
 cat <<EOF >> $HOME/.github_key
-https://15ef68d3aa8cb4cd6e17f95d966abfe98434ae78:x-oauth-basic@github.com/aleksd2000
+https://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:x-oauth-basic@github.com/aleksd2000
 EOF
 
    else
