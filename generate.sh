@@ -28,7 +28,7 @@ cat <<EOF >> $PWD/.git/config
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://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:x-oauth-basic@github.com/aleksd2000/public
+	url = https://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:x-oauth-basic@github.com/aleksd2000/public
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
